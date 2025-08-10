@@ -10,7 +10,7 @@ A Chrome extension to inspect and extract HTML, CSS, and JavaScript code for ind
 
 ## Installation
 
-1. Clone this repository or [download the ZIP](https://github.com/himanshum-zd/chrome-extension/).
+1. Clone this repository or [download the ZIP](https://github.com/himanshum-zd/copy-code-extension/).
 2. Open Google Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** (toggle in the top right).
 4. Click **Load unpacked** and select the extension's folder.
@@ -26,6 +26,6 @@ A Chrome extension to inspect and extract HTML, CSS, and JavaScript code for ind
 
 To modify and test:
 ```bash
-git clone https://github.com/himanshum-zd/chrome-extension
+git clone https://github.com/himanshum-zd/copy-code-extension
 cd chrome-extension
 # Make changes to the code
