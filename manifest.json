@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Web Component Inspectorssss",
+  "version": "1.0",
+  "description": "Inspect and extract code from web components",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
